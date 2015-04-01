@@ -1,0 +1,49 @@
+@media (min-width: 500px) {
+	#header {
+		font-size:30px;
+		color: orange;
+	}
+
+	#one. #two, #three {
+		font-size:18px;
+	}
+
+	#one {
+		float:left;
+		width:40%;
+	}
+
+	#two {
+		float:right;
+		width:60%;
+	}
+
+	#three {
+		clear:both;
+		width:100%;
+	}
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+	#header {
+		font-size:30px;
+		color: salmon;
+	}
+
+	#one. #two, #three {
+		font-size:16px;
+	}
+}
+
+@media (max-width: 400px) {
+	#header {
+		font-size:20px;
+		color: white;
+	}
+
+	#one. #two, #three {
+		font-size:12px;
+		color:white;
+		border-bottom: 3px solid black;
+	}
+}
